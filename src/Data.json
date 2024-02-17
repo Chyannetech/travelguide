@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Pompano Sushi",
+    "link": "https://www.yelp.com/biz/pompano-sushi-pompano-beach",
+    "city": "Pompano Beach",
+    "category": "food"
+  },
+  {
+    "id": 2,
+    "name": "Bombay Room Yoga",
+    "link": "http://www.hotyogahome.com/",
+    "city": "Fort Lauderdale",
+    "category": "wellness"
+  },
+  {
+    "id": 3,
+    "name": "Utopia Juice Bar",
+    "link": "http://www.utopiajuicebar.com/",
+    "city": "Pompano Beach",
+    "category": "food"
+  },
+  {
+    "id": 4,
+    "name": "Deerfield Beach",
+    "link": "https://www.deerfield-beach.com/17/Beach",
+    "city": "Deerfield Beach",
+    "category": "beach"
+  },
+  {
+    "id": 5,
+    "name": "Beehive Kitchen",
+    "link": "https://www.beehive-kitchen.com/",
+    "city": "Fort Lauderdale",
+    "category": "food"
+  },
+  {
+    "id": 6,
+    "name": "Fort Lauderdale Beach",
+    "link": "http://www.fortlauderdale.gov/departments/parks-recreation/city-parks/beach-public-fort-lauderdale-beach",
+    "city": "Fort Lauderdale",
+    "category": "beach"
+  },
+  {
+    "id": 7,
+    "name": "Relax & Cruz Spa",
+    "link": "https://www.relaxandcruzspa.com/?UTM_source=GMB_listing&UTM_medium=organic",
+    "city": "Lauderdale Lakes",
+    "category": "wellness"
+  },
+  {
+    "id": 8,
+    "name": "Utopia Juice Bar",
+    "link": "http://www.utopiajuicebar.com/",
+    "city": "Fort Lauderdale Beach",
+    "category": "food"
+  },
+  {
+    "id": 9,
+    "name": "TropiBowls",
+    "link": "http://www.tropibowls.com/",
+    "city": "Oakland Park",
+    "category": "food"
+  },
+  {
+    "id": 10,
+    "name": "The Arena",
+    "link": "https://xtremeactionpark.com/events/the-arena/",
+    "city": "Fort Lauderdale",
+    "category": "leisure"
+  }
+]

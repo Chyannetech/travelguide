@@ -1,7 +1,9 @@
+import SearchFilter from "./components/SearchFilter";
+
 function App() {
   return (
     <div className="App">
-      <h1>Travel Guide</h1>
+      <SearchFilter />
     </div>
   );
 }
