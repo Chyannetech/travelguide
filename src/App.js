@@ -1,9 +1,10 @@
 import SearchFilter from "./components/SearchFilter";
+import SearchData from "./Data.json"
 
 function App() {
   return (
     <div className="App">
-      <SearchFilter />
+      <SearchFilter placeholder="Enter a city..." data={SearchData}/>
     </div>
   );
 }
