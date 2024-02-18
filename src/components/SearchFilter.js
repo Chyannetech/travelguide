@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import "./SearchFilter.css"
+
 
 function SearchFilter({ placeholder, data }) {
-  // Create a state to hold filtered data list 
+  // Create a state to hold filtered data list
   const [filteredData, setFilteredData] = useState([]);
-// Pass the event of the input to access values
+  // Pass the event of the input to access values
   const handleFilter = (event) => {
     const searchData = event.target.value;
-    // Only show data that is searched for 
+    // Only show data that is searched for
     const newFilter = data.filter((value) => {
       return value.name.toLowerCase().includes(searchData.toLowerCase());
     });
@@ -27,10 +29,10 @@ function SearchFilter({ placeholder, data }) {
           onChange={handleFilter}
         ></input>
       </div>
-      
+
       {/* Only show filtered data when array is not empty */}
       {filteredData.length != 0 && (
-        <div className="filteredData">
+        <div className="filteredResults">
           {filteredData.map((value, key) => {
             return (
               <div>
